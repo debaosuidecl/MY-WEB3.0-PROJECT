@@ -15,7 +15,7 @@ const web3 = new Web3(
   );
   const ethbalance = await web3.utils.fromWei(weibalance, "ether");
 
-  console.log(weibalance, "weibalance");
+  console.log(weibalance, "weibalance"); // wei balance
   console.log(ethbalance, "ethbalance");
 
   const address = "0x3c2Ff2FeB98B5f7C2C59B5F813d67b27a2EC1182";
